@@ -1,0 +1,29 @@
+.nav{
+    // background:black;
+    // color: white;
+    height: 77px;
+    background-color:#a0bccc  ;
+ 
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+
+
+}
+.name-n{
+    text-transform:uppercase;
+}
+.wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    }
+
+    .link{
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+

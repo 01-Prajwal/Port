@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed:700);
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Comfortaa:wght@500&family=Cutive+Mono&family=Hind+Siliguri:wght@300&family=Lato&family=Montserrat:wght@100&family=Mulish:wght@200&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Outfit:wght@200&family=Pacifico&family=Poor+Story&family=Poppins:wght@100;300&family=Red+Hat+Display:wght@300&family=Roboto:ital,wght@1,100&family=Rubik:wght@300&family=Ubuntu&family=Unbounded:wght@800&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Hind+Siliguri:wght@300&family=Lato&family=Montserrat:wght@100&family=Mulish:wght@200&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Outfit:wght@200&family=Poppins:wght@100;300&family=Red+Hat+Display:wght@300&family=Roboto:ital,wght@1,100&family=Rubik:wght@300&family=Ubuntu&family=Varela+Round&display=swap');
+$green-light: #00ff72;
+$blue-lightest: #00fcff;
+$blue-dark: #013a52;
+$blue-dark:  #F98866;
+$blue-dark:  #FF420E;
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  
+	// background: #222;
+}
+.wrapper {
+  overflow: hidden;
+  height: 200vh;
+  // background: #524da3;
+  background: #a0bccc;
+	// scrollbar-width: none;
+//   height: 100%;
+//   width: 100%;
+
+
+ 
+  #text {
+    font-family: 'Unbounded', cursive;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 6rem;
+    text-transform: uppercase;
+  }
+  .text0,
+  .text2 {
+    color: black;
+    -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+  .text1,
+  .text3 {
+    color: black;
+    -webkit-text-fill-color: wheat; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #text {
+    top: 70px;
+    font-size: 2em;
+  }
+}
+
+
+@media only screen and (max-width: 1116px){
+  .wrapper{
+    height: 200vh;
+  }
+}
